@@ -1,0 +1,63 @@
+/**
+Box Color:081D21
+text color inside box:F5F5F5
+**/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #DEECF8;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    
+}
+
+h1, h2, h3, h4{
+    font-family: 'Sriracha', cursive;
+    text-shadow: 3px 0px #FF5400;
+}
+
+header h1, header h2{
+    text-shadow: 3px 0px  #574B60;
+}
+p, li, a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+header{
+    background-color: #081D21;
+    text-align: center;
+    color: #F5F5F5;
+}
+.project-item img{
+    height: 50%;
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.project-item{
+    overflow: hidden;
+    padding: 1em 0;
+}
+
+.project-item h3{
+    margin: 0%;
+}
+
+.experience-item, .education{
+    width: 50%;
+    border-bottom: lightslategrey 3px dashed;
+}
+
+.experience-item h4, .experience-item ul{
+    margin-left: 5%;
+}
+
